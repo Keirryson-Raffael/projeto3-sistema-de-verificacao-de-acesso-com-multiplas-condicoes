@@ -1,7 +1,7 @@
 let nome = prompt("Digite seu nome completo: ").toLowerCase()
 let idade = parseInt(prompt("Digite sua idade: "))
 
-//  verificação
+//  verificação de nome e idade
 if (idade >= 18) {
     alert (`Olá, ${nome}! Você tem acesso completo. Boas-vindas à plataforma!`)
 } else if (nome == "admin") {
