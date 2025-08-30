@@ -10,5 +10,5 @@ if (idade >= 18) {
 } else if (idade >= 13 && idade <= 17) {
     alert(`Acesso negado. Você pode participar do nosso programa Jovem Aprendiz!`)
 } else {
-    alert("Você digitou algo errado. Tente novamente.")
+    alert("Acesso negado. O conteúdo é exclusivo para maiores de 18 anos.")
 }
